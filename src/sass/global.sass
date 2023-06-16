@@ -1,0 +1,189 @@
+body
+   font-family: 'Manrope', sans-serif
+   background: #FBF7F7
+   font-weight: 400
+   font-size: 16px
+   line-height: 120%
+   color: #333333
+a
+   text-decoration: none
+   box-sizing: border-box
+   transition: 0.5s !important
+   &:hover 
+      color: $orange
+.container
+   padding: 0 15px
+   max-width: 1537px
+   margin: 0 auto
+   @media ( max-width: 1199px )
+      max-width: 960px !important
+   @media (max-width: 991px)
+      max-width: 720px !important
+   @media (max-width: 767px)
+      max-width: 540px !important
+.d-flex
+   display: flex
+   align-items: initial
+.body-wrap
+   overflow: hidden
+   position: relative
+   display: flex
+   flex-direction: column
+   min-height: 100vh
+footer
+   margin-top: auto
+h1
+   margin: 0
+   font-weight: 400
+   font-size: 76px
+   line-height: 102.6%
+   letter-spacing: -0.03em
+   font-family: 'Shadow'
+   &::first-letter
+      color: $orange2
+h2 
+   margin: 0
+   font-size: 76px
+   line-height: 102.6%
+   letter-spacing: -0.03em
+   font-family: 'Shadow'
+   &::first-letter
+      color: $orange2
+.title 
+   display: flex
+   align-items: center
+   p 
+      margin-left: 8px
+      font-size: 18px
+      line-height: 24px
+      color: rgba(51, 51, 51, 0.8)
+      position: relative
+      top: 8px
+   span 
+      font-weight: 200
+      font-size: 76px
+      line-height: 24px
+      color: rgba(51, 51, 51, 0.8)
+      display: block
+      margin: 0 5px
+      position: relative
+      top: -13px
+      left: 4px
+.or 
+   color: $orange
+ul 
+   margin: 0
+   padding: 0
+   list-style-type: none
+p
+   margin: 0
+.svg 
+   transition: 0.5s ease
+a
+   transition: color 0.5s ease
+   box-sizing: border-box
+li
+   a
+      transition: color 0.5s ease
+button
+   cursor: pointer
+   box-sizing: border-box
+textarea
+   transition: border 0.5s
+   box-sizing: border-box
+   &:focus
+      transition: border 0.5s
+      outline: none
+      border: 1px solid $orange !important
+input
+   transition: 0.5s
+   box-sizing: border-box
+   border: 1px solid #fff
+   &:disabled
+      pointer-events: none
+      opacity: 0.5
+   &:focus 
+      border: 1px solid $orange !important
+      transition: 0.5s
+   &:focus-visible
+      outline: initial
+path, rect
+   transition: fill 0.5s, stroke 0.5s
+div 
+   box-sizing: border-box
+.icon 
+   transition: fill 0.5s, stroke 0.5s
+html * 
+   scrollbar-width: thin
+   scrollbar-color: blue $orange
+*::-webkit-scrollbar,
+html *::-webkit-scrollbar 
+   height: 4px
+   width: 4px
+*::-webkit-scrollbar-track,
+html *::-webkit-scrollbar-track 
+   background: #E7E7E7
+   border-radius: 3px
+*::-webkit-scrollbar-thumb,
+html *::-webkit-scrollbar-thumb 
+   background-color: $orange
+   border-radius: 6px
+.tabs__nav 
+   scrollbar-width: thin
+   scrollbar-color: blue transparent
+.tabs__nav::-webkit-scrollbar,
+.tabs__nav::-webkit-scrollbar 
+   height: 0px
+   width: 0px
+.tabs__nav::-webkit-scrollbar-track,
+.tabs__nav::-webkit-scrollbar-track 
+   background: #E7E7E7
+   border-radius: 3px
+.tabs__nav::-webkit-scrollbar-thumb,
+.tabs__nav::-webkit-scrollbar-thumb 
+   background-color: transparent
+   border-radius: 6px
+.btn 
+   display: flex
+   align-items: center
+   justify-content: space-between
+   transition: 0.5s
+   width: max-content
+   height: 75px
+   border-radius: 20px
+   padding: 0 30px
+   background-color: $orange
+   border: 2px solid $orange
+   font-weight: 800
+   font-size: 24px
+   line-height: 24px
+   color: #FFFFFF
+   .svg 
+      margin-left: 40px
+   &:hover 
+      background: transparent 
+      border: 2px solid $orange
+      color: $orange
+      .svg 
+         path 
+            fill: $orange
+   &:disabled
+      background: #DDDDDD
+      color: rgba(51, 51, 51, 0.8)
+      pointer-events: none
+      .svg 
+         path 
+            fill: #333333
+   &_2
+      border: 2px solid $orange
+      background: transparent 
+      color: $orange
+      .svg 
+         path
+            fill: $orange
+      &:hover
+         background: $orange
+         color: #ffffff
+         .svg 
+            path 
+               fill: white
