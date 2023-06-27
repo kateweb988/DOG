@@ -637,7 +637,7 @@ input:-moz-placeholder
    &__text 
       font-size: 18px
       line-height: 24px
-      color: rgba(255, 255, 255, 0.5)
+      color: rgba(255, 255, 255, 0.8)
       margin-bottom: 28px
       padding: 0 20px
    &__link 
@@ -1427,3 +1427,47 @@ input:-moz-placeholder
          .svg 
             path, rect 
                fill: $orange2
+.ui-widget.ui-widget-content 
+   border: 1px solid $orange2
+   border-radius: 10px
+.ui-datepicker .ui-datepicker-title
+   border-radius: 10px
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight
+   border: 1px solid $orange2
+   background: $orange2
+   color: white
+.ui-datepicker .ui-datepicker-header
+   border-radius: 10px
+.ui-widget.ui-widget-content
+   transition: 0.5s
+.ui-datepicker .ui-datepicker-next, .ui-datepicker .ui-datepicker-prev
+   outline: none !important
+   background: transparent !important
+   border: none !important
+   transition: 0s !important
+#art
+   .ser__row
+      position: relative
+      &::before
+         content: ""
+         display: block
+         position: absolute
+         left: -200%
+         width: 500%
+         z-index: -1
+         height: 611px
+         top: 559px
+         background: white
+#cons 
+   .ser__row
+      position: relative
+      &::before
+         content: ""
+         display: block
+         position: absolute
+         left: -200%
+         width: 500%
+         z-index: -1
+         height: 589px
+         top: 534px
+         background: white
