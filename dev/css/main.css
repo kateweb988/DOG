@@ -363,8 +363,8 @@ html *::-webkit-scrollbar-thumb {
 
 @font-face {
   font-family: 'Shadow';
-  src: url("/fonts/Shadow-Regular.eot");
-  src: url("/fonts/Shadow-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/Shadow-Regular.woff2") format("woff2"), url("/fonts/Shadow-Regular.woff") format("woff"), url("/fonts/Shadow-Regular.ttf") format("truetype"), url("/fonts/Shadow-Regular.svg#Shadow-Regular") format("svg");
+  src: url("../fonts/Shadow-Regular.eot");
+  src: url("../fonts/Shadow-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Shadow-Regular.woff2") format("woff2"), url("../fonts/Shadow-Regular.woff") format("woff"), url("../fonts/Shadow-Regular.ttf") format("truetype"), url("../fonts/Shadow-Regular.svg#Shadow-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -502,7 +502,7 @@ input:-moz-placeholder {
   margin-right: 11px; }
 
 .custom-checkbox:checked + label::before {
-  background: url(/img/check.png) no-repeat center center;
+  background: url(../img/check.png) no-repeat center center;
   background-size: 8px; }
 
 .checkbox p {
@@ -643,7 +643,7 @@ input:-moz-placeholder {
   height: 12px;
   text-align: center;
   vertical-align: top;
-  background: url(/img/down-arr.svg) no-repeat !important;
+  background: url(../img/down-arr.svg) no-repeat !important;
   position: absolute;
   right: 19px;
   top: 33px; }
@@ -815,7 +815,7 @@ input:-moz-placeholder {
   content: "";
   position: absolute;
   right: 0px;
-  background: url(/img/down.png) no-repeat !important;
+  background: url(../img/down.png) no-repeat !important;
   width: 7px;
   left: inherit;
   height: 5px;
@@ -828,7 +828,7 @@ input:-moz-placeholder {
   content: "";
   position: absolute;
   right: 0px;
-  background: url(/img/down.png) no-repeat !important;
+  background: url(../img/down.png) no-repeat !important;
   width: 7px;
   left: inherit;
   height: 5px;
@@ -952,7 +952,7 @@ input:-moz-placeholder {
     align-items: center;
     justify-content: center;
     padding: 51px 0;
-    background: url(/img/h-bg.svg) no-repeat center center/cover;
+    background: url(../img/h-bg.svg) no-repeat center center/cover;
     background-color: #FF7630;
     border-radius: 20px;
     overflow: hidden; }
@@ -1011,19 +1011,19 @@ input:-moz-placeholder {
     .ser__box:nth-child(1):before {
       height: 7px;
       margin-top: -3.5px;
-      background: url(/img/ss1.svg) no-repeat center center; }
+      background: url(../img/ss1.svg) no-repeat center center; }
     .ser__box:nth-child(2):before {
       margin-top: -16px;
       height: 32px;
-      background: url(/img/ss2.svg) no-repeat center center; }
+      background: url(../img/ss2.svg) no-repeat center center; }
     .ser__box:nth-child(3):before {
       height: 57px;
       margin-top: -28px;
-      background: url(/img/ss3.svg) no-repeat center center; }
+      background: url(../img/ss3.svg) no-repeat center center; }
     .ser__box:nth-child(4):before {
       height: 82px;
       margin-top: -41px;
-      background: url(/img/ss4.svg) no-repeat center center; }
+      background: url(../img/ss4.svg) no-repeat center center; }
   .ser__fig {
     position: absolute;
     top: 0;
@@ -1143,7 +1143,7 @@ input:-moz-placeholder {
     width: 48.6%;
     height: 188px;
     border-radius: 20px;
-    background: url(/img/ser-bg.svg) no-repeat center center/cover;
+    background: url(../img/ser-bg.svg) no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1214,7 +1214,7 @@ input:-moz-placeholder {
 
 .gal {
   padding: 73px 0 50px;
-  background: url(/img/gal.png) no-repeat 35px 143px; }
+  background: url(../img/gal.png) no-repeat 35px 143px; }
   .gal__box {
     justify-content: space-between;
     flex-wrap: wrap;
@@ -1606,7 +1606,7 @@ input:-moz-placeholder {
   .hotel__form .hotel__data {
     width: 15%;
     position: relative;
-    background: url(/img/data.svg) no-repeat 90% 49%;
+    background: url(../img/data.svg) no-repeat 90% 49%;
     background-color: #FFFFFF; }
   .hotel__form textarea {
     width: 32%;
